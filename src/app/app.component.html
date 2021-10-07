@@ -1,0 +1,17 @@
+<!-- {{title}}
+<br>
+<button type="button" (click)="clickme()">click me!</button> -->
+
+
+<!-- มา 4 จ่าย 3
+<div>
+    <input #priceBuffetInput type="text" value="0" placeholder="ราคา">
+    <button (click)="calBuffet(priceBuffetInput.value)">คำนวณ</button>
+</div>
+<span>
+    คนละ {{value}} บาท
+</span> -->
+
+<app-action-bar ></app-action-bar>
+<app-action-bar (numberChange)="testNumberChange()" [step]="10"></app-action-bar>
+<button type="button" (click)="testEventClick()">testEventClick</button>
